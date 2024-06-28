@@ -3,11 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChatGPT Challenge | </title>
+  <title>ChatGPT Challenge | GreenLeaf Gardening Services</title>
+  <!-- https://fonts.google.com/specimen/Barlow?query=barlow -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- https://fonts.google.com/specimen/Fraunces?query=fraunces -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dist/style.css">
   <script defer src="dist/script.js"></script>
 </head>
 <body>
-    
+
+  <header id="navbar" class="navbar">
+    <div class="navbar-wrapper">
+      <a href="#!"><img src="assets/images/GreenLeaf-Logo.png" alt=""></a>
+      <ul id="main-nav" class="main-nav">
+        <li><a href="">About Us</a></li>
+        <li><a href="">Our Services</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+      <a href="#!" class="btn-main">Contact Us</a>
+      <img id="nav-btn" class="nav-btn" src="assets/images/Menu-Open.svg" alt="Menu">
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section id="hero">
+      <div class="hero-box">
+        <p>Welcome to GreenLeaf Gardening Services!</p>
+        <h1>We transform your outdoor spaces into lush, vibrant gardens.</h1>
+        <p>Our team of experienced gardeners and landscapers is dedicated to bringing your vision to life, 
+          whether you need regular lawn maintenance or a complete garden makeover. Discover the beauty and 
+          tranquility of a well-maintained garden with GreenLeaf.</p>
+        <a href="#!" class="btn-main">Contact Us</a>
+        <a href="#!" class="btn-alt">Learn More</a>
+      </div>
+      <picture class="hero-img">
+        <source media="(min-width: 56.25rem)" srcset="assets/images/Hero-Image-Desktop.png"/>
+        <img src="assets/images/Hero-Image-Mobile.png" alt="">
+      </picture>
+    </section>
+
+    <section id="about">
+      <picture class="about-img">
+        <source media="(min-width: 56.25rem)" srcset="assets/images/AboutUs-Image-Desktop.png"/>
+        <img src="assets/images/AboutUs-Image-Mobile.png" alt="">
+      </picture>
+      <div class="about-box">
+        <h2>About Us</h2>
+        <p>At GreenLeaf Gardening Services, we believe in the power of nature to enhance your quality of life. 
+          With over 10 years of experience, we offer a full range of gardening and landscaping services tailored 
+          to meet your needs. Our mission is to create beautiful, sustainable gardens that you can enjoy all 
+          year round.</p>
+        <a href="#!">View Our Gallery</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services-box">
+        <h2>Our Services</h2>
+        <p>Our team is ready to help you with all your gardening and landscaping needs. We look forward to working 
+          with you to create the garden of your dreams!</p>
+        <h3>Garden Design</h3>
+        <p>From concept to completion, we design stunning gardens that reflect your style and preferences. Our 
+          designers work closely with you to create a personalized plan that maximizes the beauty and functionality 
+          of your outdoor space.</p>
+        <hr>
+        <h3>Lawn Maintenance</h3>
+        <p>Keep your lawn healthy and green with our regular mowing, edging, and fertilizing services. Our team 
+          uses eco-friendly products and techniques to ensure your lawn stays lush and vibrant.</p>
+        <hr>
+        <h3>Planting and Pruning</h3>
+        <p>Our experts select and plant the best flowers, shrubs, and trees for your garden, and ensure they stay 
+          healthy with proper pruning. We also offer advice on plant care and maintenance to keep your garden thriving.</p>
+        <hr>
+        <h3>Irrigation System Installation</h3>
+        <p>Efficient and effective irrigation systems to keep your garden watered and thriving. We design and install 
+          systems that conserve water while ensuring your plants receive the right amount of hydration.</p>
+        <hr>
+        <h3>Seasonal Cleanup</h3>
+        <p>Prepare your garden for the changing seasons with our thorough cleanup services. From 
+          leaf removal in the fall to spring planting, we help keep your garden looking its best year-round.</p>
+      </div>
+      <picture class="services-img">
+        <source media="(min-width: 56.25rem)" srcset="assets/images/Services-Image-Desktop.png"/>
+        <img src="assets/images/Services-Image-Mobile.png" alt="">
+      </picture>
+    </section>
+
+    <section id="gallery">
+      <div class="gallery-head">
+        <h2>Gallery</h2>
+        <a href="#!" class="btn-alt">Show More</a>
+      </div>
+      <div class="gallery-box">
+        <img src="assets/images/Gallery-Image-1.png" alt="">
+        <img src="assets/images/Gallery-Image-2.png" alt="">
+        <img src="assets/images/Gallery-Image-3.png" alt="">
+        <img src="assets/images/Gallery-Image-4.png" alt="">
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="contact-wrapper">
+    <div class="contact-box">
+      <div class="contact-info">
+        <h2>Get Your Dream Garden</h2>
+        <p>Contact us today to schedule a consultation or learn more about our services.</p>
+        <p>Phone:</p>
+        <a href="#!">(555) 123-4567</a>
+        <p>Email:</p>
+        <a href="#!">info@greenleafgardening.com</a>
+        <p>Address:</p>
+        <span>123 Garden Lane, Green City, GC 12345</span>
+      </div>
+      <form id="greenleaf-form" class="greenleaf-form" action="">
+        <label for="name">Name:</label>
+        <input name="name" type="text">        
+        <label for="email">Email:</label>
+        <input name="email" type="email">
+        <label for="message">Message:</label>
+        <textarea name="message" id=""></textarea>
+        <button class="btn-main" type="submit">Submit</button>
+      </form>
+    </div>
+  </footer>
+
+  <div class="copy-footer">
+    <div class="copy-footer-box">
+      <ul>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Our Services</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+      <p>Copyright GreenLeaf Gardening Services 2022</p>
+    </div>
+  </div>
+  
 </body>
 </html>

@@ -1,6 +1,255 @@
 @use 'global';
 @use 'util' as u;
 
+.btn-main, .btn-alt {
+    display: inline-block;
+    padding: u.rem(10) u.rem(50);
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 25px;
+    transition: all .1s ease-in-out;
+}
+.btn-main {
+    background-color: var(--l-green-2);
+    &:hover {background-color: var(--l-green-3);}
+}
+.btn-alt {
+    background-color: var(--l-green-4);
+    &:hover {background-color: var(--l-green-5);}
+}
+
+.navbar {
+    width: 100%;
+    height: u.rem(75);
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    .navbar-wrapper {
+        max-width: u.rem(1110);
+        height: u.rem(75);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .main-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style: none;
+            li a {
+                position: relative;
+                margin: 0 20px;
+                color: var(--d-green);
+                transition: all .1s ease-in-out;
+                &:hover {color: var(--l-green-2);}
+                &:hover::after {
+                    content: " ";
+                    width: 100%;
+                    height: 2px;
+                    position: absolute;
+                    top: 25px;
+                    left: 0;
+                    background-color: var(--l-green-2);
+                }
+            }
+        }
+        .nav-btn {
+            display: none;
+        }
+    }
+}
+
+.wrapper {
+    padding-top: u.rem(75);
+    
+    #hero, #about, #services {
+        max-width: u.rem(1110);
+        margin: 65px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #hero {
+        margin: 25px auto 65px;
+        background-color: var(--l-green-1);
+        border-radius: 20px;
+
+        .hero-box {
+            padding: 0 50px;
+
+            h1 { margin: 20px 0;}
+            a { margin-top: 40px; margin-right: 20px;}
+        }
+
+        .hero-img img {
+            border-radius: 0 20px 20px 0;
+        }
+    }
+
+    #about {
+        .about-box {
+            padding: 0 0 0 50px;
+            p { margin-bottom: 30px;}
+            a {
+                position: relative;
+                color: var(--d-green);
+                transition: all .1s ease-in-out;
+                &:hover {color: var(--l-green-2);}
+                &:hover::after {
+                    content: " ";
+                    width: 100%;
+                    height: 2px;
+                    position: absolute;
+                    top: 25px;
+                    left: 0;
+                    background-color: var(--l-green-2);
+                }
+            }
+        }
+        .about-img img {
+            border-radius: 20px;
+        }
+    }
+
+    #services {
+        .services-box {
+            padding: 0 50px 0 0;
+            p { margin-bottom: 20px; }
+            p:first-of-type { margin-bottom: 30px;}
+            hr { margin-bottom: 15px; outline: 0; border: 1px solid var(--grey);border-bottom: 0; }
+        }
+        .services-img img {
+            border-radius: 20px;
+        }
+    }
+
+    #gallery {
+        max-width: u.rem(1110);
+        margin: 65px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .gallery-head {
+            width: 100%;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            h2 { margin: 0;}
+        }
+        .gallery-box {
+            width: 100%; 
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 45px;
+            img {
+                cursor: pointer;
+                border-radius: 20px;
+                transition: all .1s ease-in-out;
+                &:hover {
+                    transform: scale(1.01);
+                    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px;
+                }
+            }
+        }
+    }
+}
+
+.contact-wrapper {
+    margin-top: u.rem(65);
+    color: var(--white);
+    background-color: var(--l-green-4);    
+    .contact-box {
+        max-width: u.rem(1110);
+        padding: 45px 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .contact-info {
+            width: 100%;
+            h2 {color: var(--white);}
+            p {
+                margin-top: 20px;
+                color: var(--white);
+
+                &:first-of-type {margin-top: 0; margin-bottom: 20px;}
+            }            
+            span, a {
+                font-size: 1.5rem;                
+            }            
+            a {
+                color: var(--white);
+                position: relative;
+                transition: all .1s ease-in-out;
+
+                &:hover {color: var(--l-green-2);}
+            }
+        }
+        .greenleaf-form {
+            width: u.rem(365);
+            display: flex;
+            flex-direction: column;
+            label { 
+                font-size: u.rem(14);
+                display: block;
+                margin-bottom: 5px;
+            }
+            input[type=text], input[type=email], textarea {
+                display: block;
+                width: u.rem(365);
+                padding: 10px 25px;
+                margin-bottom: 10px;
+                border-radius: 6px;
+                border: 0;
+                outline: 0;
+            }
+            textarea {
+                min-height: u.rem(100);
+                margin-bottom: 0;
+            }
+            button[type=submit] {
+                margin-top: 20px;
+                border: 0;
+                outline: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.copy-footer {
+    height: u.rem(65);
+    display: flex;
+    align-items: center;
+    background-color: var(--d-green);
+    .copy-footer-box {
+        color: var(--white);
+        width: u.rem(1110);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        ul {
+            list-style: none;
+            display: flex;            
+            li a {
+                color: var(--white);
+                font-weight: 400;
+                margin-right: 10px;
+            }
+        }
+        p {color: var(--white);}
+    }
+}
+
 
 @media screen and (max-width: 375px) {
 }

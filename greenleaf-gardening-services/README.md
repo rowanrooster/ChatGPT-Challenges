@@ -37,13 +37,6 @@ Irrigation System Installation: Efficient and effective irrigation systems to ke
 
 Seasonal Cleanup: Prepare your garden for the changing seasons with our thorough cleanup services. From leaf removal in the fall to spring planting, we help keep your garden looking its best year-round.
 
-### Testimonials
-John D. - "GreenLeaf transformed my backyard into a beautiful oasis. Their attention to detail and commitment to quality is unmatched. Highly recommend!"
-
-Susan M. - "The team at GreenLeaf is fantastic. They designed a stunning garden for our home, and their maintenance services keep it looking perfect. Couldn't be happier!"
-
-Mark T. - "Professional, reliable, and creative. GreenLeaf Gardening Services exceeded our expectations in every way."
-
 ### Gallery
 
 ### Contact Us
@@ -57,7 +50,6 @@ Contact Form:
 
 Name:
 Email:
-Phone:
 Message:
 
 Our team is ready to help you with all your gardening and landscaping needs. Contact us today to schedule a consultation or learn more about our services. We look forward to working with you to create the garden of your dreams!
