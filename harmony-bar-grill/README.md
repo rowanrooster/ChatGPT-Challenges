@@ -1,4 +1,4 @@
-# GreenLeaf Gardening Services
+# Harmony Bar & Grill
  ChatGPT Challenge #2
 
  ## 'Client' Brief
