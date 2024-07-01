@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--eggshell);
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}

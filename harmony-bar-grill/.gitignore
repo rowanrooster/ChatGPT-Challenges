@@ -1,0 +1,9 @@
+*.sketch
+*.fig
+*.xd
+*.ai
+
+assets/designs/
+
+.DS_Store
+.prettierignore

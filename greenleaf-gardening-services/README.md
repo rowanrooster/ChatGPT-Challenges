@@ -14,10 +14,6 @@ Services:
 - Irrigation System Installation
 - Seasonal Cleanup
 
-## Website Design
-
-![](/assets/images/desktop-preview.jpg)
-
 ## Website Copy
 
 ### Home
