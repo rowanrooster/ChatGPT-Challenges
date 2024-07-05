@@ -1,0 +1,10 @@
+*.sketch
+*.fig
+*.xd
+*.ai
+
+assets/designs/
+theming-kit.html
+
+.DS_Store
+.prettierignore
