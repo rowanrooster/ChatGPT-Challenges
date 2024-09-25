@@ -8,22 +8,17 @@
 
 body {
     margin: 0;
-    font-family: "Inter", sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 400;
-    color: $white;
+    color: $black;
     background-color: $dark;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5 {
     margin: 0;
 }
-
-h1 { margin-bottom: u.rem(30); }
-h2 { margin-bottom: u.rem(40); }
-h4 { margin-bottom: u.rem(40); }
-p { margin-bottom: u.rem(20); line-height: 1.6; }
 
 a, a:hover {
     text-decoration: none;

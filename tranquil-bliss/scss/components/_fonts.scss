@@ -1,0 +1,27 @@
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/poppins-v21-latin-regular.woff2') format('woff2'),
+         url('../assets/fonts/Poppins-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/poppins-v21-latin-700.woff2') format('woff2'),
+    url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Bodoni Moda';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/bodoni-moda-v25-latin-700.woff2') format('woff2'),
+    url('../assets/fonts/BodoniModa_72pt-Bold.ttf') format('truetype'); 
+}

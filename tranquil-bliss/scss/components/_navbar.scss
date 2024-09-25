@@ -1,2 +1,7 @@
 @use '../theme' as *;
 @use '../components/functions' as u;
+
+.menu {
+    background-color: $black;
+    z-index: 5;
+}

@@ -13,21 +13,377 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light menu">
-      <div class="container-xl">
-        <a class="navbar-brand" href="#">Navbar <span><i class="fas fa-phone-alt"></i></span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
+    <main class="tranquil-wrapper">
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark menu">
+        <div class="container-xl">
+          <a class="navbar-brand" href="#"><img src="assets/images/tranquil-bliss-logo.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              <a class="nav-link" href="#packages">Spa Packages</a>
+              <a class="nav-link" href="#about">About Us</a>
+              <a class="btn btn-primary rounded-3" href="#contact">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="hero">
+        <div class="container text-light">
+          <div class="row gx-5 text-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <h1 class="display-1">Your sanctuary for relaxation and rejuvenation.</h1>
+              <p class="mb-4 mb-sm-4">Our expert therapists and beauticians are dedicated 
+                to providing you with the highest quality treatments 
+                to help you look and feel your best. Escape the 
+                stress of everyday life and indulge in our luxurious 
+                services designed to restore your body and mind.</p>
+                <div class="row mt-5 d-none d-md-flex">
+                  <div class="col-md-4 text-center">
+                    <img class="hero-thumb" src="assets/images/hero-img-2.jpg" alt="">
+                    <h2 class="h5 mt-4">Massage Therapy</h2>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img class="hero-thumb" src="assets/images/hero-img-3.jpg" alt="">
+                    <h2 class="h5 mt-4">Facial Treatments</h2>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img class="hero-thumb" src="assets/images/hero-img-4.jpg" alt="">
+                    <h2 class="h5 mt-4">Hair Styling</h2>
+                  </div>
+                </div>
+                <div class="row">  
+                  <div class="col mt-5 mb-5 mb-lg-0 text-center">                
+                    <a href="#packages" class="btn btn-primary">Spa Packages</a>
+                    <a href="#about" class="btn btn-secondary">About Us</a>
+                  </div>
+                </div>
+            </div>
+            <div class="d-flex col-12 col-sm-12 col-lg-4 justify-content-center">
+              <picture class="hero-img">
+                <source media="(min-width: 62rem)" srcset="assets/images/hero-img-1.jpg"/>
+                <img class="img-fluid" src="assets/images/hero-img-1-mobile.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-12 col-sm-12">
+              <h2>Lets Brighten Your Day</h2>
+              <hr>
+              <h3>Our Services</h3>
+            </div>
+          </div>
+          <div class="row g-5">
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-4">
+              <div class="card">
+                <img class="img-fluid rounded-4" src="assets/images/service-img-1.jpg" alt="">
+                <h4>Massage Therapy</h4>
+                <P>Relieve tension and stress with our 
+                  signature massages, including Swedish,
+                  deep tissue, and hot stone massages.</P>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-4">
+              <div class="card">
+                <img class="img-fluid rounded-4" src="assets/images/service-img-2.jpg" alt="">
+                <h4>Facial Treatments</h4>
+                <P>Revitalize your skin with our customized
+                  facials, including anti-aging, hydrating, 
+                  and acne treatments.</P>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-4">
+              <div class="card">
+                <img class="img-fluid rounded-4" src="assets/images/service-img-3.jpg" alt="">
+                <h4>Manicures and Pedicures</h4>
+                <P>Pamper your hands and feet with our 
+                  luxurious manicures and pedicures, 
+                  featuring the latest trends and techniques.</P>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-4">
+              <div class="card">
+                <img class="img-fluid rounded-4" src="assets/images/service-img-4.jpg" alt="">
+                <h4>Hair Styling and Coloring</h4>
+                <P>Enhance your look with our professional
+                  hair services, from cutting and styling 
+                  to coloring and treatments.</P>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-4">
+              <div class="card">
+                <img class="img-fluid rounded-4" src="assets/images/service-img-5.jpg" alt="">
+                <h4>Wellness Packages</h4>
+                <P>Treat yourself to a day of relaxation 
+                  with our exclusive wellness packages, 
+                  combining multiple services for a 
+                  comprehensive spa experience.</P>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-4">
+              <div class="card">
+                <img class="img-fluid rounded-4" src="assets/images/service-img-6.jpg" alt="">
+                <h4>Body Treatments</h4>
+                <P>Rejuvenate your skin and body with our 
+                  specialized body treatments, including 
+                  exfoliation, wraps, and cellulite reduction.</P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-12 col-sm-12">
+              <h2>The Best All In One</h2>
+              <hr>
+              <h3>Our Spa Packages</h3>
+            </div>
+          </div>
+          <div class="row gx-5 mb-4 mb-sm-4">
+            <div class="col-12 col-sm-12 col-lg-6">
+              <h4>Blissful Escape</h4>
+              <P>Enjoy a 3-hour retreat featuring a Swedish 
+                massage, hydrating facial, and classic 
+                manicure and pedicure. Perfect for a 
+                refreshing break from your routine.</P>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6">
+              <img class="img-fluid rounded-5 mt-4 mt-sm-4" src="assets/images/package-img-1.jpg" alt="">
+            </div>
+          </div>
+          <div class="row gx-5 mb-4 mb-sm-4">
+            <div class="col-12 col-sm-12 col-lg-6">
+              <h4>Ultimate Relaxation</h4>
+              <P>Indulge in 4 hours of pure bliss with a 
+                hot stone massage, anti-aging facial, 
+                deluxe manicure, and pedicure, plus a 
+                nourishing body wrap. This package offers 
+                the ultimate in relaxation and rejuvenation.</P>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6">
+              <img class="img-fluid rounded-5 mt-4 mt-sm-4" src="assets/images/package-img-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="row gx-5">
+            <div class="col-12 col-sm-12 col-lg-6">
+              <h4>Couples Retreat</h4>
+              <P>Share a relaxing experience with a loved 
+                one. This 2.5-hour package includes 
+                side-by-side massages, custom facials, 
+                and a private relaxation room with 
+                complimentary refreshments.</P>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6">
+              <img class="img-fluid rounded-5 mt-4 mt-sm-4" src="assets/images/package-img-3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-12 col-sm-12">
+              <h2>Get To Know Us</h2>
+              <hr>
+              <h3>About Us</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-lg-12">
+              <p>From serene treatment rooms to beautifully 
+                styled hair and nails, Tranquil Bliss is 
+                your destination for beauty and relaxation.
+
+                At Tranquil Bliss Spa & Beauty Salon, we 
+                believe that true beauty comes from within. 
+                Our mission is to create a serene and 
+                nurturing environment where you can unwind 
+                and rejuvenate. With a team of experienced 
+                professionals and a commitment to excellence, 
+                we offer a wide range of services tailored 
+                to meet your individual needs. Experience 
+                the perfect blend of relaxation and beauty 
+                at Tranquil Bliss.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-lg-6">
+              <img class="img-fluid rounded-5 mt-4 mt-sm-4" src="assets/images/about-img-1.jpg" alt="">
+              <h5>Hot Tub</h5>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6">
+              <img class="img-fluid rounded-5 mt-4 mt-sm-4" src="assets/images/about-img-2.jpg" alt="">
+              <h5>Deck Area</h5>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-12 col-sm-12">
+            <h2>A Day At Tranquil Bliss</h2>
+            <hr>
+            <h3>Our Gallery</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div id="gallery-box" class="gallery-box col-12 col-sm-12">
+            <a href="assets/images/gallery-img-1.jpg" data-pswp-width="500" 
+        data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-1.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-2.jpg" data-pswp-width="500" 
+        data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-2.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-3.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-3.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-4.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-4.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-5.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-5.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-6.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-6.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-7.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-7.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-8.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-8.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-8.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-9.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-19.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-10.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-11.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-11.jpg" alt="">
+            </a>
+            <a href="assets/images/gallery-img-12.jpg" data-pswp-width="500" 
+              data-pswp-height="500" target="_blank">
+              <img class="rounded-5" src="assets/images/gallery-img-12.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-12 col-sm-12">
+            <h2>Hear It From Our Customers</h2>
+            <hr>
+            <h3>Testimonials</h3>
+          </div>
+        </div>
+        <div class="row gx-5">
+          <div class="col-12 col-sm-12 mb-4 mb-sm-4 col-lg-6">
+            <img class="img-fluid rounded-5" src="assets/images/testimonial-img.jpg" alt="">
+          </div>
+          <div class="col-12 col-sm-12 col-lg-6">
+            <h5>Olivia W.</h5>
+            <p>"Tranquil Bliss is my go-to spa for relaxation. The massages are 
+              incredible, and the staff is so welcoming. Highly recommend!"</p>
+              
+            <h5>Sophia K.</h5>
+            <p>"I love coming here for my facials and hair treatments. The results
+               are always amazing, and the atmosphere is so calming."</p>
+
+            <h5>Isabella M.</h5>
+            <p>"The best spa experience I've ever had! The wellness packages are
+               fantastic, and I always leave feeling rejuvenated and beautiful."</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container text-light">
+        <div class="row gx-5">
+          <div class="col-12 col-sm-12">
+            <h2>Indulge In Some Pampering</h2>
+            <hr>
+            <h3>Contact Us</h3>
+          </div>
+        </div>
+        <div class="row gx-5">
+          <div class="col-12 col-sm-12 col-lg-6">
+            <p>Book your appointment online and let us help you relax and
+              rejuvenate. We look forward to welcoming you to Tranquil
+              Bliss Spa & Beauty Salon.</p>
+            <p>Phone <br>
+              <span>(555) 654-3210</span></p>
+              
+            <p>Email <br>
+              <span>appointments@tranquilblissspa.com</span></p>
+              
+            <p>Address <br>
+              <span>321 Serenity Street, Calm City, CC 54321</span></p>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-6 mt-4 mt-sm-4 mt-md-4 mt-lg-0">
+            <form id="main-form" action="form_handler.php" method="POST">
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" name="fullName" class="form-control" 
+                  id="fullName" 
+                  minlength="3" 
+                  max="50" 
+                  autocomplete="name"
+                  required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" 
+                  id="email" 
+                  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" 
+                  data-bouncer-message="Please use a valid email format" 
+                  autocomplete="email"
+                  required>
+              </div>
+              <div class="mb-4">
+                <label for="industry" class="form-label">Industry</label>
+                <input type="text" name="industry" class="form-control" id="industry">
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-primary rounded-3" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="dist/bootstrap/bootstrap.bundle.min.js"></script>
@@ -37,7 +393,7 @@
     <script type="module">
       import PhotoSwipeLightbox from '/bootstrap-test/dist/photoswipe/photoswipe-lightbox.esm.js';
       const lightbox = new PhotoSwipeLightbox({
-        gallery: '#gallery',
+        gallery: '#gallery-box',
         children: 'a',
         pswpModule: () => import('/bootstrap-test/dist/photoswipe/photoswipe.esm.js')
       });

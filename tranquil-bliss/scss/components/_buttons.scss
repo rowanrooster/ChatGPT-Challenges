@@ -1,2 +1,7 @@
 @use '../theme' as *;
 @use '../components/functions' as u;
+
+.btn {
+    padding-inline: u.rem(30);
+    font-weight: 700;
+}
